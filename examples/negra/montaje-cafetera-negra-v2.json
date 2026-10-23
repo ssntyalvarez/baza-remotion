@@ -2,131 +2,131 @@
  "width": 720,
  "height": 1280,
  "fps": 30,
- "durationInFrames": 864,
+ "durationInFrames": 819,
  "clips": [
   {
    "src": "negra/p01-gancho.mp4",
    "at": 0,
    "duration": 45,
    "sourceStart": 0,
-   "volume": 0.45
+   "volume": 0.316
   },
   {
    "src": "negra/p01-gancho.mp4",
    "at": 45,
    "duration": 45,
    "sourceStart": 99,
-   "volume": 0.45
+   "volume": 0.316
   },
   {
    "src": "negra/p02-rutina.mp4",
    "at": 90,
    "duration": 45,
    "sourceStart": 18,
-   "volume": 0.45
+   "volume": 0.316
   },
   {
    "src": "negra/p03-boton.mp4",
    "at": 135,
    "duration": 53,
    "sourceStart": 21,
-   "volume": 0.45
+   "volume": 0.316
   },
   {
    "src": "negra/p04-abundancia.mp4",
    "at": 188,
    "duration": 42,
    "sourceStart": 0,
-   "volume": 0.45
+   "volume": 0.316
   },
   {
    "src": "negra/p05-carga-nespresso.mp4",
    "at": 230,
    "duration": 27,
    "sourceStart": 0,
-   "volume": 0.45
+   "volume": 0.398
   },
   {
    "src": "negra/p05-carga-nespresso.mp4",
    "at": 257,
    "duration": 25,
    "sourceStart": 96,
-   "volume": 0.45
+   "volume": 0.398
   },
   {
    "src": "negra/p06-espresso.mp4",
    "at": 282,
    "duration": 60,
    "sourceStart": 9,
-   "volume": 0.45
+   "volume": 0.316
   },
   {
    "src": "negra/p07-carga-dg.mp4",
    "at": 342,
    "duration": 46,
    "sourceStart": 27,
-   "volume": 0.45
+   "volume": 0.398
   },
   {
    "src": "negra/p08-chocolatada.mp4",
    "at": 388,
    "duration": 60,
    "sourceStart": 0,
-   "volume": 0.45
+   "volume": 0.316
   },
   {
    "src": "negra/p09-carga-molido.mp4",
    "at": 448,
    "duration": 60,
    "sourceStart": 0,
-   "volume": 0.45
+   "volume": 0.398
   },
   {
    "src": "negra/p09-carga-molido.mp4",
    "at": 508,
    "duration": 22,
    "sourceStart": 99,
-   "volume": 0.45
+   "volume": 0.398
   },
   {
    "src": "negra/p10-cafe-hielo.mp4",
    "at": 530,
    "duration": 60,
    "sourceStart": 9,
-   "volume": 0.45
+   "volume": 0.316
   },
   {
    "src": "negra/p11-fila-toma.mp4",
    "at": 590,
    "duration": 44,
    "sourceStart": 0,
-   "volume": 0.45
+   "volume": 0.316
   },
   {
    "src": "negra/p11-fila-toma.mp4",
    "at": 634,
    "duration": 33,
    "sourceStart": 45,
-   "volume": 0.45
+   "volume": 0.316
   },
   {
    "src": "negra/p11-fila-toma.mp4",
    "at": 667,
    "duration": 26,
    "sourceStart": 123,
-   "volume": 0.45
+   "volume": 0.316
   },
   {
    "src": "negra/p12-cierre.mp4",
    "at": 693,
    "duration": 108,
    "sourceStart": 9,
-   "volume": 0.45
+   "volume": 0.316
   },
   {
    "src": "negra/outro720.webm",
    "at": 744,
-   "duration": 120,
+   "duration": 75,
    "sourceStart": 0,
    "speed": 1.28,
    "volume": 0,

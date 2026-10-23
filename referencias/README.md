@@ -19,3 +19,4 @@ Ejemplos reales de cómo expone un celular (para los prompts de luz).
 | Archivo | Qué muestra |
 |---|---|
 | luz-mediodia-quemados.mp4 | TikTok real (103 s, 576x1024) de una chica con una cafetera en una cocina blanca a mediodía. Todo muy luminoso, high-key: las ventanas quemadas a blanco, las paredes y la mesada casi quemadas, colores lavados. La cara NO está quemada: la luz es difusa y pareja sobre ella. Según Santy, es una luz bastante realista. Referencia de "celular a mediodía, sobreexpuesto en partes". |
+| luz-techo-sin-sombras-negras.mp4 | Reel real de Baza (32 s, 720x1280): una chica muestra una waflera y una digicam en un living/oficina con luces de techo y tiras LED cálidas, sin sol. Hay mucha luz y las sombras son suaves, casi sin zonas negras. La cara brilla en algunas partes por el producto que tiene, y está bien así. Según Santy, a nuestros videos les sobran zonas muy negras: un celular grabando video casi nunca deja sombras tan oscuras. |

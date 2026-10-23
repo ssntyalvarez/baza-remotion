@@ -20,7 +20,7 @@ npm run render -- <timeline.json> renders/<salida>.mp4
 - `public/baza/outro720.webm`: outro con transparencia (VP9 + alfa, 720x1280, 25 fps, 5,12 s). Usarla con `"transparent": true` y `"src": "baza/outro720.webm"`.
 - `assets-originales/outro720.mov`: el original de Santy (QuickTime Animation con alfa); Chromium no lo decodifica, por eso se usa el .webm.
 - **Regla:** va al final acelerada a ~1,28 (125–130 %), muy timeada: el video de la chica termina JUSTO en el cuadro en que el naranja tapa toda la pantalla y nunca se ve un cuadro negro debajo.
-- Con `speed: 1.28` a 30 fps: el naranja tapa todo en el cuadro **56** desde que arranca la outro. Entonces `outro.at = finVideoChica - 57` (el video de la chica cubre hasta ese cuadro inclusive) y `duration` ~98 (90–105): la outro completa (120) deja mucho naranja, pero cortada a 75 termina de golpe; dejar ~0,5–1 s después de que termina la animación. Verificar siempre mirando los cuadros alrededor del corte.
+- Con `speed: 1.28` a 30 fps: el naranja tapa todo en el cuadro **56** desde que arranca la outro. Entonces `outro.at = finVideoChica - 57` (el video de la chica cubre hasta ese cuadro inclusive) y `duration: 120` (outro completa): la voz termina siempre con "Baza. Tu hogar, tu estilo" sincronizada con la outro. Solo si la voz no lo dice: `duration` ~98 (cortada a 75 termina de golpe). Verificar siempre mirando los cuadros alrededor del corte.
 
 ## Audio (paso obligatorio)
 

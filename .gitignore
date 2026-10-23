@@ -1,0 +1,9 @@
+node_modules/
+.remotion/
+dist/
+renders/
+.env*
+public/smoke.mp4
+public/tone.wav
+public/*
+!public/baza/

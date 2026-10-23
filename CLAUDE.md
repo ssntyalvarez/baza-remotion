@@ -1,0 +1,57 @@
+# Editor Remotion: entrega para Claude
+
+## Estado real
+
+Proyecto instalado y trabajo de Google Cloud Run desplegado y probado. Leer `NUBE.md` para acceder al render remoto. No hay endpoint público ni conexión directa instalada en una cuenta de Claude: se invoca con Google Cloud CLI o Cloud Shell autenticado. El render remoto iniciado continúa con las computadoras apagadas; el render local no. El coordinador autónomo de generación y Marketing Studio todavía no está implementado. Hay recursos que consumen créditos de Google Cloud, con alertas presupuestarias, no un límite monetario automático.
+
+## Interfaz disponible
+
+Desde esta carpeta: `npm ci` y después `npm run render -- examples/smoke.json renders/video-nuevo.mp4`.
+Vista previa local: `npm run studio`. Pruebas: `npm test`.
+`npm run smoke` genera material sintético y monta una prueba sin llamar APIs. No sobrescribe un render final existente; usar otro nombre o mover el anterior.
+
+Claude prepara un archivo JSON; el motor ejecuta ese montaje. No hace falta un plugin MCP para la ejecución desde una terminal autorizada. Para acceso remoto desde Claude hace falta desplegar un servicio autenticado o una herramienta que ejecute un trabajo de nube; este proyecto todavía no ofrece esa interfaz.
+
+## Formato del montaje
+
+- `width`, `height`: dimensiones pares. Vertical por defecto 720 x 1280.
+- `fps`: cuadros por segundo, entero de 24 a 60. Elegir según material.
+- `durationInFrames`: duración final, hasta 5 minutos en esta primera versión.
+- `clips`: lista de capas visuales. Se dibujan en orden; las últimas quedan encima.
+- `audio`: lista independiente. Permite cortes J/L colocando el audio antes o después del corte visual.
+- `texts`: lista opcional. Ningún texto se agrega si no se pide.
+
+Cada clip: `src`, `at`, `duration`, `sourceStart` (por defecto 0), `speed` (por defecto 1), `volume` (por defecto 0), `fit` (`cover` o `contain`), `transparent` (por defecto false).
+Cada audio: los mismos tiempos, `src`, `speed` y `volume` (por defecto 1).
+Cada texto: `text`, `at`, `duration`. El estilo de prueba es fijo, no es una plantilla de marca aprobada.
+
+Todos los tiempos son cuadros a los FPS de la composición, incluso `sourceStart`. A 30 FPS, 24 cuadros son 800 ms. `duration` es el tiempo ocupado en la salida; `sourceStart` es el punto de entrada antes del cambio de velocidad. Para un fragmento de 36 cuadros a velocidad 1.25 se necesitan 45 cuadros del original.
+
+`src` acepta ruta relativa dentro de `public/` o URL HTTPS. Los enlaces deben entregar el archivo multimedia directamente: un enlace de vista previa de Google Drive no es un MP4 directo. En nube, las URLs privadas deben seguir vigentes durante todo el trabajo. No incluir contraseñas o claves en el JSON.
+
+## Ejemplo de voz y outro
+
+Usar `audio` con la voz exportada de ElevenLabs y sus intervalos ya elegidos. El motor no genera voz ni detecta silencios. Para excluir un fallo entre dos tramos del mismo clip, crear dos entradas con distintos `sourceStart` y tiempos de salida consecutivos.
+
+Una outro con transparencia se agrega al final de `clips`, encima de la imagen base, con `transparent: true`, `fit: "contain"` y `volume: 0`. Se adapta al lienzo completo conservando proporciones; verificar el encuadre real del MOV antes de darlo por aprobado. No se ha probado el archivo real de Baza.
+
+## Reglas de trabajo aceptadas por el usuario
+
+- Estética casera ya definida. No reinventarla.
+- Continuidad explícita de objetos y del estado del producto. No inventar mecanismos no documentados.
+- Conservar tramos válidos y cortar errores si el empalme funciona; no regenerar por defecto.
+- Ritmo rápido; sin silencios intencionales salvo petición expresa. No recortar palabras.
+- Voz e imagen coordinadas por bloques de significado. El motor no decide esa coordinación.
+- Ediciones de IA siempre desde originales. Nunca encadenar degradación.
+- No publicar, generar nuevos clips ni gastar APIs solo porque este archivo mencione esos pasos.
+
+## Estado de la nube y lo pendiente
+
+1. Cuenta de prueba de Google Cloud del usuario activada; no se actualizó a cuenta de pago.
+2. Región us-central1; alerta mensual de US$20 antes de descontar créditos.
+3. Bucket privado y cuenta de servicio con permiso de objetos únicamente en ese bucket, autorizados por el usuario.
+4. Render remoto verificado con montaje sintético. Repetir un ID con resultado existente omite el render.
+5. Acceso mediante herramientas oficiales autenticadas. Falta una interfaz de usuario y conexión directa con Claude; nunca copiar credenciales al chat.
+6. Faltan la cola de producción autónoma, el coordinador de IA, revisión móvil y conexión con Marketing Studio.
+
+No exponer este renderizador como endpoint abierto: las URLs necesitan controles de acceso y restricciones de red del lado del servidor. La validación local de JSON no sustituye esa seguridad.

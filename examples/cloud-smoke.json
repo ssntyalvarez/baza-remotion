@@ -1,0 +1,36 @@
+{
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "durationInFrames": 60,
+  "clips": [
+    {
+      "src": "gs://project-a14dd0c8-69ad-4846-b09-remotion/assets/smoke.mp4",
+      "at": 0,
+      "duration": 24,
+      "sourceStart": 0
+    },
+    {
+      "src": "gs://project-a14dd0c8-69ad-4846-b09-remotion/assets/smoke.mp4",
+      "at": 24,
+      "duration": 36,
+      "sourceStart": 15,
+      "speed": 1.25
+    }
+  ],
+  "audio": [
+    {
+      "src": "gs://project-a14dd0c8-69ad-4846-b09-remotion/assets/tone.wav",
+      "at": 0,
+      "duration": 60,
+      "volume": 0.3
+    }
+  ],
+  "texts": [
+    {
+      "text": "Corte + velocidad + audio independiente",
+      "at": 24,
+      "duration": 36
+    }
+  ]
+}

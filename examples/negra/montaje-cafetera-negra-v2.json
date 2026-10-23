@@ -140,7 +140,23 @@
    "duration": 792,
    "sourceStart": 0,
    "volume": 1
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 135,
+   "duration": 60,
+   "sourceStart": 0,
+   "volume": 0.5
   }
  ],
- "texts": []
+ "texts": [
+  {
+   "style": "baza",
+   "sub": "Cafetera de c\u00e1psulas",
+   "text": "3 EN 1",
+   "at": 135,
+   "duration": 53,
+   "y": 0.14
+  }
+ ]
 }

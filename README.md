@@ -27,3 +27,12 @@ npm run render -- <timeline.json> renders/<salida>.mp4
 - Bajar el audio de TODOS los clips generados por IA entre −8 y −13 dB (`volume` 0,40 a 0,22). La voz en off queda en 1.
 - Si ya estaba a −8, llevarlo a −12. Los clips con ruidos ASMR que suman (cápsula en el portacápsulas, cargar café) pueden quedar en ~−8 dB.
 - Voz en off corrida de punta a punta, sin huecos: pausas de ~0,15 s y cortes solo en silencios reales.
+
+## Texto Baza (equivalente al MOGRT texto-baza)
+
+En `texts`: `{"style":"baza","sub":"Cafetera de cápsulas","text":"3 EN 1","at":135,"duration":53,"y":0.14}`.
+- Forma de T: cada renglón con su propia caja naranja `#D84515`, pegadas. Arriba regular (nombre del producto), abajo bold grande. Interlineado muy bajo.
+- Opcionales: `size` (renglón grande, 104), `subSize` (56), `scale`, `y` (centro vertical, 0 a 1; arriba o abajo según el plano).
+- Si el nombre es corto (p. ej. "Sandwichera"), el renglón grande se agranda hasta el ancho del de arriba (un solo bloque parejo).
+- Fuente: `public/baza/fonts/texto-medium.otf` y `texto-bold.otf`. HOY es Inter Display (provisoria): reemplazar por la Redonda de Santy (.ttf/.otf) con el mismo nombre de archivo o ajustar `src/index.jsx`.
+- Cada texto entra con su efecto de sonido: `public/baza/sonidos/` (en `audio`, volumen ~0,5). Ej.: campanita (bell1) justo en el corte al plano donde aparece el producto + texto con su nombre.

@@ -12,3 +12,10 @@ Reels de Baza aprobados por Santy/Martín. Son la referencia de estilo, ritmo de
 | sandwichera-3en1.mp4 | Sandwichera 3 en 1 | 37,6 s |
 
 Para mirarlos: clonar el repo y sacar cuadros con ffmpeg (`fps=2,tile`) + transcribir la voz con faster-whisper.
+
+## luz/
+Ejemplos reales de cómo expone un celular (para los prompts de luz).
+
+| Archivo | Qué muestra |
+|---|---|
+| luz-mediodia-quemados.mp4 | TikTok real (103 s, 576x1024) de una chica con una cafetera en una cocina blanca a mediodía. Todo muy luminoso, high-key: las ventanas quemadas a blanco, las paredes y la mesada casi quemadas, colores lavados. La cara NO está quemada: la luz es difusa y pareja sobre ella. Según Santy, es una luz bastante realista. Referencia de "celular a mediodía, sobreexpuesto en partes". |

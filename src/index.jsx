@@ -34,8 +34,11 @@ function BazaText({x}) {
       display:'flex', flexDirection:'column', alignItems:'center'}}>
       {x.sub ? <div style={{...box, fontSize:(x.subSize ?? 56)*s, fontWeight:500, letterSpacing:-0.5*s,
         padding:`${12*s}px ${22*s}px ${12*s}px`, borderRadius:12*s}}>{x.sub}</div> : null}
-      <div style={{...box, fontSize:(x.size ?? 104)*s, fontWeight:700, letterSpacing:-2*s,
-        padding:`${10*s}px ${22*s}px ${12*s}px`, borderRadius:12*s, marginTop:x.sub ? -1 : 0}}>{x.text}</div>
+      {x.level === 'secundario'
+        ? <div style={{...box, fontSize:(x.size ?? 46)*s, fontWeight:500, letterSpacing:-0.5*s,
+            padding:`${10*s}px ${20*s}px ${11*s}px`, borderRadius:11*s}}>{x.text}</div>
+        : <div style={{...box, fontSize:(x.size ?? 104)*s, fontWeight:700, letterSpacing:-2*s,
+            padding:`${10*s}px ${22*s}px ${12*s}px`, borderRadius:12*s, marginTop:x.sub ? -1 : 0}}>{x.text}</div>}
     </div>
   </AbsoluteFill>;
 }

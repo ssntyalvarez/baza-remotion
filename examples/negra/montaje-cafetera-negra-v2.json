@@ -147,6 +147,27 @@
    "duration": 60,
    "sourceStart": 0,
    "volume": 0.5
+  },
+  {
+   "src": "baza/sonidos/key5.wav",
+   "at": 228,
+   "duration": 18,
+   "sourceStart": 0,
+   "volume": 0.5
+  },
+  {
+   "src": "baza/sonidos/key5.wav",
+   "at": 340,
+   "duration": 18,
+   "sourceStart": 0,
+   "volume": 0.5
+  },
+  {
+   "src": "baza/sonidos/key5.wav",
+   "at": 446,
+   "duration": 18,
+   "sourceStart": 0,
+   "volume": 0.5
   }
  ],
  "texts": [
@@ -157,6 +178,30 @@
    "at": 135,
    "duration": 53,
    "y": 0.14
+  },
+  {
+   "style": "baza",
+   "level": "secundario",
+   "text": "C\u00e1psula Nespresso",
+   "at": 230,
+   "duration": 112,
+   "y": 0.17
+  },
+  {
+   "style": "baza",
+   "level": "secundario",
+   "text": "C\u00e1psula Dolce Gusto",
+   "at": 342,
+   "duration": 106,
+   "y": 0.17
+  },
+  {
+   "style": "baza",
+   "level": "secundario",
+   "text": "Caf\u00e9 molido",
+   "at": 448,
+   "duration": 82,
+   "y": 0.17
   }
  ]
 }

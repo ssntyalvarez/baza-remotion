@@ -36,3 +36,7 @@ En `texts`: `{"style":"baza","sub":"Cafetera de cápsulas","text":"3 EN 1","at":
 - Si el nombre es corto (p. ej. "Sandwichera"), el renglón grande se agranda hasta el ancho del de arriba (un solo bloque parejo).
 - Fuente: `public/baza/fonts/texto-medium.otf` y `texto-bold.otf`. HOY es Inter Display (provisoria): reemplazar por la Redonda de Santy (.ttf/.otf) con el mismo nombre de archivo o ajustar `src/index.jsx`.
 - Cada texto entra con su efecto de sonido: `public/baza/sonidos/` (en `audio`, volumen ~0,5). Ej.: campanita (bell1) justo en el corte al plano donde aparece el producto + texto con su nombre.
+
+### Texto secundario y zonas seguras
+- Texto secundario (menos jerarquía, p. ej. "Cápsula Nespresso", "Café molido", o una característica que importe: sumergible, inalámbrico): `{"style":"baza","level":"secundario","text":"Café molido",...}` + sonido de tecla (`baza/sonidos/key5.wav`, el golpe suena a 0,07 s: arrancarlo 2 cuadros antes del texto). Es opcional: usarlo solo si suma y no satura; no poner características que no importan.
+- Zonas seguras de Reels/TikTok: abajo ~25 % del alto tapado (no poner texto ahí), arriba una franja (~10 %) y a la derecha los botones (likes, comentarios). Ubicar los textos entre `y` 0,12 y 0,70, centrados.

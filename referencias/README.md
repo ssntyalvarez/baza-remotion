@@ -1,6 +1,8 @@
 # Referencias
 
 ## aprobados/
+**El mejor ejemplo aprobado es `cafetera-rosa.mp4`: mirarlo primero.**
+
 Reels de Baza aprobados por Santy/Martín. Son la referencia de estilo, ritmo de cortes, voz, chica, lugares y outro.
 
 | Archivo | Producto | Duración |
@@ -14,7 +16,12 @@ Reels de Baza aprobados por Santy/Martín. Son la referencia de estilo, ritmo de
 Para mirarlos: clonar el repo y sacar cuadros con ffmpeg (`fps=2,tile`) + transcribir la voz con faster-whisper.
 
 ## luz/
-Ejemplos reales de cómo expone un celular (para los prompts de luz).
+Antes de escribir el bloque de luz de los prompts, MIRAR LOS 3 EJEMPLOS:
+1. `luz-mediodia-quemados.mp4`: solo luz natural.
+2. `luz-techo-sin-sombras-negras.mp4`: solo luz artificial.
+3. `luz-peluqueria-celular.mp4`: mezcla de las dos.
+
+En los tres hay mucha luz, sombras abiertas, sin negros profundos y con zonas quemadas, como expone un celular.
 
 | Archivo | Qué muestra |
 |---|---|

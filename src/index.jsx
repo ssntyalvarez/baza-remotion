@@ -23,6 +23,28 @@ function useBazaFonts(enabled) {
       .catch(e => { console.error(e); continueRender(h); });
   });
 }
+// Texto TikTok (productos que no son Baza): TikTok Sans Medium blanco con trazo negro suave, chico,
+// para no tapar la composición. Sin caja. `text` admite \n para dos renglones.
+let tiktokReady = null;
+function useTikTokFont(enabled) {
+  React.useState(() => {
+    if (!enabled || tiktokReady) return;
+    const h = delayRender('fuente TikTok Sans');
+    tiktokReady = new FontFace('TikTokSans', `url(${staticFile('baza/fonts/tiktok/tiktok-sans-latin-500-normal.woff2')})`, {weight: '500'}).load()
+      .then(f => { document.fonts.add(f); continueRender(h); })
+      .catch(e => { console.error(e); continueRender(h); });
+  });
+}
+function TikTokText({x}) {
+  const s = x.scale ?? 1;
+  return <AbsoluteFill style={{alignItems:'center'}}>
+    <div style={{position:'absolute', top:`${(x.y ?? 0.3) * 100}%`, transform:'translateY(-50%)',
+      maxWidth:'82%', textAlign:'center', whiteSpace:'pre-line', color:'#fff',
+      fontFamily:'TikTokSans, sans-serif', fontWeight:500, fontSize:(x.size ?? 38)*s, lineHeight:1.18,
+      WebkitTextStroke:`${(x.stroke ?? 3)*s}px #000`, paintOrder:'stroke fill',
+      textShadow:`0 ${1*s}px ${3*s}px rgba(0,0,0,.35)`}}>{x.text}</div>
+  </AbsoluteFill>;
+}
 function BazaText({x}) {
   // Forma de T: cada renglón con su propia caja naranja, pegadas. Arriba regular (nombre), abajo bold grande.
   // Así no queda naranja vacío a los costados del renglón corto.
@@ -44,6 +66,7 @@ function BazaText({x}) {
 }
 function Edit(t) {
   useBazaFonts((t.texts ?? []).some(x => x.style === 'baza'));
+  useTikTokFont((t.texts ?? []).some(x => x.style === 'tiktok'));
   return <AbsoluteFill style={{backgroundColor: '#000'}}>
     {t.clips.map((c,i) => <Sequence key={i} from={c.at} durationInFrames={c.duration}>
       <OffthreadVideo src={source(c.src)} trimBefore={c.sourceStart ?? 0} playbackRate={c.speed ?? 1}
@@ -54,7 +77,7 @@ function Edit(t) {
       <Html5Audio src={source(a.src)} trimBefore={a.sourceStart ?? 0} playbackRate={a.speed ?? 1} volume={a.volume ?? 1}/>
     </Sequence>)}
     {(t.texts ?? []).map((x,i) => <Sequence key={i} from={x.at} durationInFrames={x.duration}>
-      {x.style === 'baza' ? <BazaText x={x}/> : <AbsoluteFill style={{justifyContent:'flex-end', alignItems:'center', padding:60, paddingBottom:180}}>
+      {x.style === 'baza' ? <BazaText x={x}/> : x.style === 'tiktok' ? <TikTokText x={x}/> : <AbsoluteFill style={{justifyContent:'flex-end', alignItems:'center', padding:60, paddingBottom:180}}>
         <div style={{fontFamily:'Arial',fontSize:42,color:'white',background:'#000b',padding:18,textAlign:'center'}}>{x.text}</div>
       </AbsoluteFill>}
     </Sequence>)}

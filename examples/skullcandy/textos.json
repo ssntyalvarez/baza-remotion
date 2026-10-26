@@ -1,18 +1,13 @@
 {
   "width": 720, "height": 1280, "fps": 24, "durationInFrames": 427,
   "clips": [{"src": "skullcandy-base.mp4", "at": 0, "duration": 427, "volume": 1}],
-  "audio": [
-    {"src": "baza/sonidos/bell1.wav", "at": 64, "duration": 48, "volume": 0.5},
-    {"src": "baza/sonidos/key5.wav", "at": 142, "duration": 14, "volume": 0.5},
-    {"src": "baza/sonidos/key5.wav", "at": 190, "duration": 14, "volume": 0.5},
-    {"src": "baza/sonidos/key5.wav", "at": 282, "duration": 14, "volume": 0.5}
-  ],
+  "audio": [],
   "texts": [
-    {"style": "baza", "at": 2, "duration": 62, "sub": "Los mejores auris", "text": "para entrenar", "size": 84, "y": 0.62},
-    {"style": "baza", "at": 64, "duration": 39, "sub": "Skullcandy", "text": "INDY EVO", "y": 0.2},
-    {"style": "baza", "level": "secundario", "at": 142, "duration": 46, "text": "Calzan firme con la aleta", "y": 0.66},
-    {"style": "baza", "level": "secundario", "at": 190, "duration": 91, "text": "Resisten agua y transpiración", "y": 0.2},
-    {"style": "baza", "level": "secundario", "at": 282, "duration": 76, "text": "30 horas de batería", "y": 0.2},
-    {"style": "baza", "at": 359, "duration": 68, "sub": "Encontralos en", "text": "Game Station", "size": 90, "y": 0.62}
+    {"style": "tiktok", "at": 2, "duration": 62, "text": "los mejores auris\npara entrenar", "y": 0.62},
+    {"style": "tiktok", "at": 64, "duration": 39, "text": "Skullcandy Indy Evo", "y": 0.2},
+    {"style": "tiktok", "at": 142, "duration": 46, "text": "calzan firme con la aleta", "y": 0.66},
+    {"style": "tiktok", "at": 190, "duration": 91, "text": "resisten agua y transpiración", "y": 0.2},
+    {"style": "tiktok", "at": 282, "duration": 76, "text": "30 horas de batería", "y": 0.2},
+    {"style": "tiktok", "at": 359, "duration": 68, "text": "encontralos en Game Station", "y": 0.62}
   ]
 }

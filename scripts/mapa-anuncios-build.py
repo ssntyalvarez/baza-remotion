@@ -67,9 +67,11 @@ fmt=[
 ("F11","Tendencia","Customización","Producto crudo y después tuneado (stickers, fundas, setup), aclarando que lo tuneado no viene incluido.","Muy usado en cámaras y consolas.","No lo hacemos.","El tuneo generado puede tapar o deformar el producto.","Media","Cámaras, consolas, auris, gadgets.","Transformación grande; producto reconocible.","Tuneo que tapa el producto.","Game Station",""),
 ("F12","Tendencia","Carrusel de fotos / slideshow","Secuencia de fotos con texto y música en tendencia (TikTok photo mode).","Muy barato y fuerte en TikTok.","No lo hacemos.","Fotos IA con cara muy nítida se notan; usar defectos de digicam.","Baja","Cualquier producto con fotos lindas; volumen.","Fotos reales/creíbles; texto corto; audio en tendencia.","Fotos IA perfectas; demasiado texto.","Game Station, Baza",""),
 ]
-ws=sheet('Formatos',["ID","Familia","Formato","Qué se ve","Cómo está en el mercado","Nuestra versión / qué hacemos distinto","Estado nuestro","Nuestro límite con IA","Dificultad IA","Queda mejor para","Qué lo hace bueno","Qué lo hace malo (filtro)","Marcas","Ejemplos nuestros","Videos hechos"],fmt,[6,11,24,42,34,38,14,40,10,32,38,32,20,22,9])
+ws=sheet('Formatos',["ID","Familia","Formato","Qué se ve","Cómo está en el mercado","Nuestra versión / qué hacemos distinto","Estado nuestro","Nuestro límite con IA","Dificultad IA","Queda mejor para","Qué lo hace bueno","Qué lo hace malo (filtro)","Marcas","Ejemplos nuestros","Videos hechos","Solución (claude/soluciones-por-formato.md)"],fmt,[6,11,24,42,34,38,14,40,10,32,38,32,20,22,9,40])
 for r in range(2,len(fmt)+2):
     ws.cell(row=r,column=15,value=f"=COUNTIF(Videos!$E:$E,C{r})").font=B
+    sol={"F1":"§1 [comprobado] + §0","F2":"§2 [sin validar]: video negro con la voz + primer plano fijo","F3":"§1 + §0 [sin validar como formato]","F4":"§4.1 unboxing [comprobado]","F5":"§4 [comprobado]: recortes pegados al objeto, fotos digicam con moldes","F6":"§6 [planos sueltos comprobados]","F7":"§7 [sin validar]","F8":"§3 [comprobado]: video de referencia con cara difuminada + cara/ropa/producto/lugar","F9":"§8 [sin validar]","F10":"§5 [comprobado]","F11":"§9 [sin validar]","F12":"§10 [sin validar] con fotos de §4.2"}[ws.cell(row=r,column=1).value]
+    c=ws.cell(row=r,column=16,value=sol); c.font=B; c.alignment=W
 
 # ---------- Ganchos ----------
 gan=[

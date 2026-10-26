@@ -1,0 +1,67 @@
+{
+ "width": 720,
+ "height": 1280,
+ "fps": 24,
+ "durationInFrames": 427,
+ "clips": [
+  {
+   "src": "skullcandy-base.mp4",
+   "at": 0,
+   "duration": 427,
+   "volume": 0.25
+  }
+ ],
+ "texts": [
+  {
+   "style": "tiktok",
+   "at": 2,
+   "duration": 62,
+   "text": "Los mejores auris\npara entrenar",
+   "y": 0.62
+  },
+  {
+   "style": "tiktok",
+   "at": 64,
+   "duration": 39,
+   "text": "Skullcandy Indy Evo",
+   "y": 0.2
+  },
+  {
+   "style": "tiktok",
+   "at": 142,
+   "duration": 46,
+   "text": "Calzan firme con la aleta",
+   "y": 0.66
+  },
+  {
+   "style": "tiktok",
+   "at": 190,
+   "duration": 91,
+   "text": "Resisten agua\ny transpiración",
+   "y": 0.2
+  },
+  {
+   "style": "tiktok",
+   "at": 282,
+   "duration": 76,
+   "text": "30 horas de batería",
+   "y": 0.2
+  },
+  {
+   "style": "tiktok",
+   "at": 359,
+   "duration": 68,
+   "text": "Encontralos en Game Station",
+   "y": 0.62
+  }
+ ],
+ "audio": [
+  {
+   "src": "musica/dung.mp3",
+   "at": 0,
+   "duration": 427,
+   "sourceStart": 64,
+   "volume": 0.8
+  }
+ ]
+}

@@ -40,8 +40,8 @@ function TikTokText({x}) {
   return <AbsoluteFill style={{alignItems:'center'}}>
     <div style={{position:'absolute', top:`${(x.y ?? 0.3) * 100}%`, transform:'translateY(-50%)',
       maxWidth:'82%', textAlign:'center', whiteSpace:'pre-line', color:'#fff',
-      fontFamily:'TikTokSans, sans-serif', fontWeight:500, fontSize:(x.size ?? 38)*s, lineHeight:1.18,
-      WebkitTextStroke:`${(x.stroke ?? 3)*s}px #000`, paintOrder:'stroke fill',
+      fontFamily:'TikTokSans, sans-serif', fontWeight:500, fontSize:(x.size ?? 44)*s, lineHeight:1.18,
+      WebkitTextStroke:`${(x.stroke ?? 7)*s}px #000`, paintOrder:'stroke fill',
       textShadow:`0 ${1*s}px ${3*s}px rgba(0,0,0,.35)`}}>{x.text}</div>
   </AbsoluteFill>;
 }

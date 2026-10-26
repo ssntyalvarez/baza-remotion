@@ -51,8 +51,8 @@
    "style": "tiktok",
    "at": 359,
    "duration": 68,
-   "text": "Encontralos en",
-   "y": 0.58
+   "text": "Encontralos en\nGameStation",
+   "y": 0.545
   }
  ],
  "audio": [
@@ -69,8 +69,8 @@
    "src": "gamestation/logo.png",
    "at": 359,
    "duration": 68,
-   "y": 0.636,
-   "width": 330
+   "y": 0.65,
+   "width": 400
   }
  ]
 }

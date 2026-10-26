@@ -23,7 +23,14 @@ Claude prepara un archivo JSON; el motor ejecuta ese montaje. No hace falta un p
 
 Cada clip: `src`, `at`, `duration`, `sourceStart` (por defecto 0), `speed` (por defecto 1), `volume` (por defecto 0), `fit` (`cover` o `contain`), `transparent` (por defecto false).
 Cada audio: los mismos tiempos, `src`, `speed` y `volume` (por defecto 1).
-Cada texto: `text`, `at`, `duration`. El estilo de prueba es fijo, no es una plantilla de marca aprobada.
+Cada texto: `text`, `at`, `duration` y `style`:
+- `baza` (solo Baza): forma de T naranja #D84515; `sub` = renglón chico, `text` = renglón grande bold; `level: "secundario"` para textos menores; `y` (0–1). Lleva sonido (campana o tecla, como pista de `audio`).
+- `tiktok` (todo lo que no es Baza): TikTok Sans Medium blanco con trazo negro; `y` (0–1), `\n` para dos renglones; `size`, `stroke` y `scale` opcionales. Sin sonido.
+- Sin `style`: estilo de prueba, no usar en entregas.
+
+`images` (opcional): imágenes fijas como logos. Cada una: `src`, `at`, `duration`, `y` (centro vertical 0–1), `width` en px; se centran en x.
+
+Zona segura: nada en el cuarto inferior (lo tapa la interfaz de la app). Detalle y estado de los trabajos en el doc del proyecto `claude/remotion-edicion.md`. Para que Santy edite: `LEEME.md`.
 
 Todos los tiempos son cuadros a los FPS de la composición, incluso `sourceStart`. A 30 FPS, 24 cuadros son 800 ms. `duration` es el tiempo ocupado en la salida; `sourceStart` es el punto de entrada antes del cambio de velocidad. Para un fragmento de 36 cuadros a velocidad 1.25 se necesitan 45 cuadros del original.
 

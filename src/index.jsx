@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Composition, Html5Audio, OffthreadVideo, Sequence, continueRender, delayRender, registerRoot, staticFile, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Composition, Html5Audio, Img, OffthreadVideo, Sequence, continueRender, delayRender, registerRoot, staticFile, useCurrentFrame} from 'remotion';
 import {validateTimeline} from './timeline.mjs';
 
 const source = (s) => s.startsWith('https://') ? s : staticFile(s);
@@ -75,6 +75,11 @@ function Edit(t) {
     </Sequence>)}
     {(t.audio ?? []).map((a,i) => <Sequence key={i} from={a.at} durationInFrames={a.duration} layout="none">
       <Html5Audio src={source(a.src)} trimBefore={a.sourceStart ?? 0} playbackRate={a.speed ?? 1} volume={a.volume ?? 1}/>
+    </Sequence>)}
+    {(t.images ?? []).map((x,i) => <Sequence key={'img'+i} from={x.at} durationInFrames={x.duration}>
+      {/* Imagen fija (logo): centrada en x, `y` = centro vertical (0-1), `width` en px */}
+      <AbsoluteFill><Img src={source(x.src)} style={{position:'absolute', left:'50%', top:`${(x.y ?? 0.5)*100}%`,
+        width:x.width, transform:'translate(-50%,-50%)'}}/></AbsoluteFill>
     </Sequence>)}
     {(t.texts ?? []).map((x,i) => <Sequence key={i} from={x.at} durationInFrames={x.duration}>
       {x.style === 'baza' ? <BazaText x={x}/> : x.style === 'tiktok' ? <TikTokText x={x}/> : <AbsoluteFill style={{justifyContent:'flex-end', alignItems:'center', padding:60, paddingBottom:180}}>

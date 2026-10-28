@@ -1,0 +1,116 @@
+{
+ "width": 720,
+ "height": 1280,
+ "fps": 30,
+ "durationInFrames": 1270,
+ "clips": [
+  {
+   "src": "k6/IPROK6.mp4",
+   "at": 0,
+   "duration": 1270,
+   "fit": "cover",
+   "volume": 0
+  }
+ ],
+ "audio": [
+  {
+   "src": "k6/IPROK6.mp4",
+   "at": 0,
+   "duration": 1270,
+   "volume": 1
+  }
+ ],
+ "texts": [
+  {
+   "text": "La abuela, porque tiene",
+   "at": 309,
+   "duration": 34,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "teclas grandes",
+   "at": 343,
+   "duration": 24,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "y botón SOS",
+   "at": 367,
+   "duration": 41,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Para el que no quiere",
+   "at": 1030,
+   "duration": 19,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "un smartphone",
+   "at": 1049,
+   "duration": 18,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "o quiere uno de repuesto",
+   "at": 1067,
+   "duration": 39,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "para salir,",
+   "at": 1106,
+   "duration": 24,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "es este.",
+   "at": 1130,
+   "duration": 17,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Así que si tenés",
+   "at": 1148,
+   "duration": 20,
+   "style": "tiktok",
+   "y": 0.5
+  },
+  {
+   "text": "un local, tenelo.",
+   "at": 1168,
+   "duration": 41,
+   "style": "tiktok",
+   "y": 0.5
+  },
+  {
+   "text": "Escribinos",
+   "at": 1209,
+   "duration": 15,
+   "style": "tiktok",
+   "y": 0.5
+  },
+  {
+   "text": "y te pasamos",
+   "at": 1224,
+   "duration": 20,
+   "style": "tiktok",
+   "y": 0.5
+  },
+  {
+   "text": "el precio por mayor",
+   "at": 1244,
+   "duration": 26,
+   "style": "tiktok",
+   "y": 0.5
+  }
+ ]
+}

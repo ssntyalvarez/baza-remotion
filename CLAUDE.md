@@ -36,6 +36,15 @@ Todos los tiempos son cuadros a los FPS de la composición, incluso `sourceStart
 
 `src` acepta ruta relativa dentro de `public/` o URL HTTPS. Los enlaces deben entregar el archivo multimedia directamente: un enlace de vista previa de Google Drive no es un MP4 directo. En nube, las URLs privadas deben seguir vigentes durante todo el trabajo. No incluir contraseñas o claves en el JSON.
 
+## Cierre obligatorio (logo de la marca) — NO OLVIDAR
+
+Todo video de entrega termina con el logo de su marca. Lo pidió Santy y ya se olvidó una vez (Eiliko, 28/10).
+- El JSON lleva `"marca"`: `"gamestation"`, `"powercase"`, `"baza"` o `"prueba"`. **`npm run render` se niega a renderizar** si falta `marca` o si falta el logo hasta el último cuadro (`scripts/render.mjs`, `checkMarca`).
+- **Game Station:** texto TikTok en dos renglones ("Disponible en\nGameStation" o "Encontralos en\nGameStation") en `y` 0.545 y debajo `images` con `public/gamestation/logo.png`, `width` 400, `y` 0.65, los últimos ~2 s. El original está en Drive como `GAMESTATION.png`.
+- **Power Case:** `public/powercase/logo.png` (P blanca sobre cuadrado rojo) en el cierre, sin tapar la cara (en el K6: `y` 0.12, `width` 200).
+- **Baza:** outro de Baza (MOV con transparencia) al final de `clips`.
+- Entregar siempre dos versiones: con música (para que Santy escuche) y sin música (la que se sube; el audio en tendencia se elige en la app).
+
 ## Ejemplo de voz y outro
 
 Usar `audio` con la voz exportada de ElevenLabs y sus intervalos ya elegidos. El motor no genera voz ni detecta silencios. Para excluir un fallo entre dos tramos del mismo clip, crear dos entradas con distintos `sourceStart` y tiempos de salida consecutivos.

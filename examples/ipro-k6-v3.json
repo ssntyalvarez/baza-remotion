@@ -1,0 +1,832 @@
+{
+ "width": 720,
+ "height": 1280,
+ "fps": 30,
+ "durationInFrames": 1204,
+ "clips": [
+  {
+   "src": "k6/t1.mp4",
+   "at": 0,
+   "duration": 22,
+   "sourceStart": 0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t1z.mp4",
+   "at": 22,
+   "duration": 51,
+   "sourceStart": 26,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 73,
+   "duration": 56,
+   "sourceStart": 84,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t1z.mp4",
+   "at": 129,
+   "duration": 59,
+   "sourceStart": 146,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 188,
+   "duration": 55,
+   "sourceStart": 214,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t1z.mp4",
+   "at": 243,
+   "duration": 35,
+   "sourceStart": 271,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 278,
+   "duration": 20,
+   "sourceStart": 309,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t1z.mp4",
+   "at": 298,
+   "duration": 11,
+   "sourceStart": 335,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 309,
+   "duration": 30,
+   "sourceStart": 355,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t1z.mp4",
+   "at": 339,
+   "duration": 49,
+   "sourceStart": 395,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 388,
+   "duration": 50,
+   "sourceStart": 444,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2z.mp4",
+   "at": 438,
+   "duration": 54,
+   "sourceStart": 0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 492,
+   "duration": 65,
+   "sourceStart": 54,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2z.mp4",
+   "at": 557,
+   "duration": 46,
+   "sourceStart": 125,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 603,
+   "duration": 37,
+   "sourceStart": 171,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2z.mp4",
+   "at": 640,
+   "duration": 45,
+   "sourceStart": 215,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 685,
+   "duration": 62,
+   "sourceStart": 277,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2z.mp4",
+   "at": 747,
+   "duration": 29,
+   "sourceStart": 346,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 776,
+   "duration": 28,
+   "sourceStart": 381,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2z.mp4",
+   "at": 804,
+   "duration": 23,
+   "sourceStart": 415,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 827,
+   "duration": 31,
+   "sourceStart": 448,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2z.mp4",
+   "at": 858,
+   "duration": 46,
+   "sourceStart": 494,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 904,
+   "duration": 55,
+   "sourceStart": 540,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2z.mp4",
+   "at": 959,
+   "duration": 28,
+   "sourceStart": 608,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 987,
+   "duration": 28,
+   "sourceStart": 641,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2z.mp4",
+   "at": 1015,
+   "duration": 31,
+   "sourceStart": 671,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 1046,
+   "duration": 47,
+   "sourceStart": 713,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2z.mp4",
+   "at": 1093,
+   "duration": 30,
+   "sourceStart": 760,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 1123,
+   "duration": 41,
+   "sourceStart": 803,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/t2z.mp4",
+   "at": 1164,
+   "duration": 40,
+   "sourceStart": 844,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/detalles.mp4",
+   "at": 29,
+   "duration": 36,
+   "sourceStart": 0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/detalles.mp4",
+   "at": 157,
+   "duration": 27,
+   "sourceStart": 52,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/detalles.mp4",
+   "at": 776,
+   "duration": 27,
+   "sourceStart": 9,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/linterna_zoom.mp4",
+   "at": 805,
+   "duration": 20,
+   "sourceStart": 8,
+   "fit": "cover",
+   "volume": 0
+  }
+ ],
+ "audio": [
+  {
+   "src": "k6/t1.mp4",
+   "at": 0,
+   "duration": 22,
+   "sourceStart": 0,
+   "volume": 1
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 22,
+   "duration": 51,
+   "sourceStart": 26,
+   "volume": 1
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 73,
+   "duration": 56,
+   "sourceStart": 84,
+   "volume": 1
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 129,
+   "duration": 59,
+   "sourceStart": 146,
+   "volume": 1
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 188,
+   "duration": 55,
+   "sourceStart": 214,
+   "volume": 1
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 243,
+   "duration": 35,
+   "sourceStart": 271,
+   "volume": 1
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 278,
+   "duration": 20,
+   "sourceStart": 309,
+   "volume": 1
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 298,
+   "duration": 11,
+   "sourceStart": 335,
+   "volume": 1
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 309,
+   "duration": 30,
+   "sourceStart": 355,
+   "volume": 1
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 339,
+   "duration": 49,
+   "sourceStart": 395,
+   "volume": 1
+  },
+  {
+   "src": "k6/t1.mp4",
+   "at": 388,
+   "duration": 50,
+   "sourceStart": 444,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 438,
+   "duration": 54,
+   "sourceStart": 0,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 492,
+   "duration": 65,
+   "sourceStart": 54,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 557,
+   "duration": 46,
+   "sourceStart": 125,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 603,
+   "duration": 37,
+   "sourceStart": 171,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 640,
+   "duration": 45,
+   "sourceStart": 215,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 685,
+   "duration": 62,
+   "sourceStart": 277,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 747,
+   "duration": 29,
+   "sourceStart": 346,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 776,
+   "duration": 28,
+   "sourceStart": 381,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 804,
+   "duration": 23,
+   "sourceStart": 415,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 827,
+   "duration": 31,
+   "sourceStart": 448,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 858,
+   "duration": 46,
+   "sourceStart": 494,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 904,
+   "duration": 55,
+   "sourceStart": 540,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 959,
+   "duration": 28,
+   "sourceStart": 608,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 987,
+   "duration": 28,
+   "sourceStart": 641,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 1015,
+   "duration": 31,
+   "sourceStart": 671,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 1046,
+   "duration": 47,
+   "sourceStart": 713,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 1093,
+   "duration": 30,
+   "sourceStart": 760,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 1123,
+   "duration": 41,
+   "sourceStart": 803,
+   "volume": 1
+  },
+  {
+   "src": "k6/t2.mp4",
+   "at": 1164,
+   "duration": 40,
+   "sourceStart": 844,
+   "volume": 1
+  }
+ ],
+ "texts": [
+  {
+   "text": "Te cuento algo,",
+   "at": 0,
+   "duration": 22,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "los celulares de teclas",
+   "at": 24,
+   "duration": 33,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "volvieron.",
+   "at": 57,
+   "duration": 16,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Y no, no son",
+   "at": 74,
+   "duration": 22,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "para los abuelos nomás.",
+   "at": 96,
+   "duration": 33,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Mirá este, el iPro",
+   "at": 131,
+   "duration": 36,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "K6",
+   "at": 167,
+   "duration": 21,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Sí, ya sé, a",
+   "at": 190,
+   "duration": 23,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "primera vista decís,",
+   "at": 213,
+   "duration": 30,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "un celular de teclas,",
+   "at": 245,
+   "duration": 33,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "¿quién lo compra?",
+   "at": 279,
+   "duration": 19,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Bueno,",
+   "at": 300,
+   "duration": 9,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "un montón de gente.",
+   "at": 311,
+   "duration": 28,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "El que va a un",
+   "at": 341,
+   "duration": 13,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "recital o a la",
+   "at": 354,
+   "duration": 21,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "cancha",
+   "at": 375,
+   "duration": 13,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "y no quiere que",
+   "at": 388,
+   "duration": 20,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "le roben el smartphone.",
+   "at": 408,
+   "duration": 30,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "El que labura en",
+   "at": 438,
+   "duration": 25,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "una obra o hace",
+   "at": 463,
+   "duration": 29,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "delivery y necesita uno",
+   "at": 492,
+   "duration": 46,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "que aguante.",
+   "at": 538,
+   "duration": 19,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Y el que directamente",
+   "at": 559,
+   "duration": 34,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "está",
+   "at": 593,
+   "duration": 10,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "cansado del celular",
+   "at": 603,
+   "duration": 37,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "quiere desconectarse un poco.",
+   "at": 645,
+   "duration": 40,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Y este no es",
+   "at": 687,
+   "duration": 28,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "cualquier básico, eh",
+   "at": 715,
+   "duration": 32,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Es 4G,",
+   "at": 749,
+   "duration": 27,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "tiene doble chip,",
+   "at": 776,
+   "duration": 28,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "linterna",
+   "at": 805,
+   "duration": 22,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "botón de SOS.",
+   "at": 831,
+   "duration": 27,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "O sea, lo ponés",
+   "at": 860,
+   "duration": 21,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "en el mostrador",
+   "at": 881,
+   "duration": 23,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "y le sirve a",
+   "at": 904,
+   "duration": 23,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "cualquiera que entre.",
+   "at": 927,
+   "duration": 32,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Ticket bajo,",
+   "at": 961,
+   "duration": 26,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "sale rápido y",
+   "at": 988,
+   "duration": 27,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "te lo vuelven a",
+   "at": 1019,
+   "duration": 18,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "pedir.",
+   "at": 1037,
+   "duration": 9,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Así que si tenés",
+   "at": 1048,
+   "duration": 22,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "un local,",
+   "at": 1070,
+   "duration": 23,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "no te quedes sin",
+   "at": 1093,
+   "duration": 18,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "stock.",
+   "at": 1111,
+   "duration": 12,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Escribinos por privado y",
+   "at": 1125,
+   "duration": 39,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "te pasamos el precio",
+   "at": 1164,
+   "duration": 24,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "por mayor.",
+   "at": 1188,
+   "duration": 16,
+   "style": "tiktok",
+   "y": 0.62
+  }
+ ],
+ "images": [
+  {
+   "src": "k6/logo.png",
+   "at": 1123,
+   "duration": 81,
+   "y": 0.12,
+   "width": 200
+  }
+ ]
+}

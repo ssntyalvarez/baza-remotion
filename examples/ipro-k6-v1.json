@@ -1,0 +1,181 @@
+{
+ "width": 720,
+ "height": 1280,
+ "fps": 30,
+ "durationInFrames": 510,
+ "clips": [
+  {
+   "src": "k6/pres.mp4",
+   "at": 0,
+   "duration": 510,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/clientes.mp4",
+   "at": 0,
+   "duration": 42,
+   "sourceStart": 0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/detalles.mp4",
+   "at": 42,
+   "duration": 39,
+   "sourceStart": 0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/clientes.mp4",
+   "at": 81,
+   "duration": 42,
+   "sourceStart": 69,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/clientes.mp4",
+   "at": 159,
+   "duration": 36,
+   "sourceStart": 114,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/linterna_zoom.mp4",
+   "at": 195,
+   "duration": 36,
+   "sourceStart": 0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/clientes.mp4",
+   "at": 246,
+   "duration": 54,
+   "sourceStart": 156,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "k6/detalles.mp4",
+   "at": 384,
+   "duration": 30,
+   "sourceStart": 52,
+   "fit": "cover",
+   "volume": 0
+  }
+ ],
+ "audio": [
+  {
+   "src": "k6/pres.mp4",
+   "at": 0,
+   "duration": 510,
+   "volume": 1
+  }
+ ],
+ "texts": [
+  {
+   "text": "teclas grandes",
+   "at": 14,
+   "duration": 34,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "y botón SOS",
+   "at": 51,
+   "duration": 30,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "se va a un recital",
+   "at": 84,
+   "duration": 36,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "no quiere arriesgar\nsu celular",
+   "at": 120,
+   "duration": 39,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "labura todo el día",
+   "at": 165,
+   "duration": 30,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "linterna y batería\nque dura",
+   "at": 195,
+   "duration": 48,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "se quiere desconectar\ndel smartphone",
+   "at": 246,
+   "duration": 54,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Es el iPro K6",
+   "at": 303,
+   "duration": 36,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "4G y doble chip",
+   "at": 339,
+   "duration": 43,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "cuatro clientes",
+   "at": 384,
+   "duration": 24,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "un solo producto",
+   "at": 408,
+   "duration": 27,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "sumalo a tu local",
+   "at": 438,
+   "duration": 21,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "escribile a los chicos\nde Power Case",
+   "at": 459,
+   "duration": 51,
+   "style": "tiktok",
+   "y": 0.62
+  }
+ ],
+ "images": [
+  {
+   "src": "k6/logo.png",
+   "at": 462,
+   "duration": 48,
+   "y": 0.1,
+   "width": 220
+  }
+ ]
+}

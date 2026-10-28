@@ -1,0 +1,263 @@
+{
+ "width": 720,
+ "height": 1280,
+ "fps": 30,
+ "durationInFrames": 898,
+ "marca": "gamestation",
+ "clips": [
+  {
+   "src": "eiliko/p4.mp4",
+   "at": 0,
+   "duration": 60,
+   "sourceStart": 0,
+   "speed": 1.0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/p1.mp4",
+   "at": 60,
+   "duration": 150,
+   "sourceStart": 30,
+   "speed": 1.4,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/pF.mp4",
+   "at": 210,
+   "duration": 207,
+   "sourceStart": 0,
+   "speed": 1.0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/p2.mp4",
+   "at": 417,
+   "duration": 117,
+   "sourceStart": 9,
+   "speed": 1.15,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/pC2.mp4",
+   "at": 534,
+   "duration": 123,
+   "sourceStart": 6,
+   "speed": 1.15,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/pE.mp4",
+   "at": 657,
+   "duration": 90,
+   "sourceStart": 9,
+   "speed": 1.1,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/pA.mp4",
+   "at": 747,
+   "duration": 45,
+   "sourceStart": 0,
+   "speed": 1.0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/pB2.mp4",
+   "at": 792,
+   "duration": 106,
+   "sourceStart": 0,
+   "speed": 1.1,
+   "fit": "cover",
+   "volume": 0
+  }
+ ],
+ "texts": [
+  {
+   "text": "El llavero que todos quieren",
+   "at": 0,
+   "duration": 60,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Lo agarrás y se despierta",
+   "at": 60,
+   "duration": 150,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Si lo tocás, cambia de humor",
+   "at": 417,
+   "duration": 117,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Y te tira sorpresas",
+   "at": 534,
+   "duration": 123,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Si se cruza con otro, se saludan",
+   "at": 657,
+   "duration": 90,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Lo llevás a todos lados",
+   "at": 747,
+   "duration": 45,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Hasta al súper",
+   "at": 792,
+   "duration": 106,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "¡Y te habla!",
+   "at": 210,
+   "duration": 207,
+   "style": "tiktok",
+   "y": 0.15
+  },
+  {
+   "text": "¿Cómo está el clima hoy?",
+   "at": 210,
+   "duration": 60,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Hoy está soleado\ny hace 22 grados",
+   "at": 270,
+   "duration": 90,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Ideal para salir a pasear",
+   "at": 360,
+   "duration": 57,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Disponible en\nGameStation",
+   "at": 838,
+   "duration": 60,
+   "style": "tiktok",
+   "y": 0.545
+  }
+ ],
+ "images": [
+  {
+   "src": "gamestation/logo.png",
+   "at": 838,
+   "duration": 60,
+   "y": 0.65,
+   "width": 400
+  }
+ ],
+ "audio": [
+  {
+   "src": "eiliko/p4.mp4",
+   "at": 0,
+   "duration": 60,
+   "sourceStart": 0,
+   "speed": 1.0,
+   "volume": 0.224
+  },
+  {
+   "src": "eiliko/p1.mp4",
+   "at": 60,
+   "duration": 150,
+   "sourceStart": 30,
+   "speed": 1.4,
+   "volume": 0.224
+  },
+  {
+   "src": "eiliko/pF.mp4",
+   "at": 210,
+   "duration": 207,
+   "sourceStart": 0,
+   "speed": 1.0,
+   "volume": 1.0
+  },
+  {
+   "src": "eiliko/p2.mp4",
+   "at": 417,
+   "duration": 117,
+   "sourceStart": 9,
+   "speed": 1.15,
+   "volume": 0.224
+  },
+  {
+   "src": "eiliko/pC2.mp4",
+   "at": 534,
+   "duration": 123,
+   "sourceStart": 6,
+   "speed": 1.15,
+   "volume": 0.0
+  },
+  {
+   "src": "eiliko/pE.mp4",
+   "at": 657,
+   "duration": 90,
+   "sourceStart": 9,
+   "speed": 1.1,
+   "volume": 0.224
+  },
+  {
+   "src": "eiliko/pA.mp4",
+   "at": 747,
+   "duration": 45,
+   "sourceStart": 0,
+   "speed": 1.0,
+   "volume": 0.224
+  },
+  {
+   "src": "eiliko/pB2.mp4",
+   "at": 792,
+   "duration": 106,
+   "sourceStart": 0,
+   "speed": 1.1,
+   "volume": 0.224
+  },
+  {
+   "src": "musica/silly_cat.mp3",
+   "at": 0,
+   "duration": 210,
+   "sourceStart": 860,
+   "volume": 0.7
+  },
+  {
+   "src": "musica/silly_cat.mp3",
+   "at": 210,
+   "duration": 207,
+   "sourceStart": 1070,
+   "volume": 0.22
+  },
+  {
+   "src": "musica/silly_cat.mp3",
+   "at": 417,
+   "duration": 481,
+   "sourceStart": 1277,
+   "volume": 0.7
+  }
+ ]
+}

@@ -1,5 +1,14 @@
 # Editor Remotion: entrega para Claude
 
+# 🔴 GATE AVATAR: antes de generar CUALQUIER plano con una persona (pedido de Santy, 30/10/2026)
+
+Un chat ya se olvidó de esto (promo 3 productos Baza: la chica se armó desde un cuadro de la cafetera rosa y hubo que rehacer planos). Leer `claude/REGLA-AVATAR.md` en el proyecto de Claude. Resumen:
+1. Elegir una chica de Drive `AVATARES NUESTROS REUTILIZABLES` (id `1NoEsom5qQA1nlcI87Ynjzg_EOExy9AR0`, subcarpetas por marca: `Baza y gamestation` con LOLA y NAMI, `Powercase`). Leer README y ficha.
+2. Si no hay una adecuada o no se sabe cuál va con la marca: PARAR y preguntar a Santy antes de gastar créditos. Nunca armar una chica propia ni sacarla de un cuadro de un video aprobado.
+3. Kit con nano-banana-pro (cara de la carpeta + selfie real de POSES), nunca un cuadro de video. Mostrarle el kit y esperar su OK antes de pasar a video.
+4. El plan o guion arranca con `Avatar: <nombre> (carpeta)`. Sin esa línea el plan no está listo.
+5. En campañas con varios productos, la misma reutilizable en todos los planos.
+
 ## Estado real
 
 Proyecto instalado y trabajo de Google Cloud Run desplegado y probado. Leer `NUBE.md` para acceder al render remoto. No hay endpoint público ni conexión directa instalada en una cuenta de Claude: se invoca con Google Cloud CLI o Cloud Shell autenticado. El render remoto iniciado continúa con las computadoras apagadas; el render local no. El coordinador autónomo de generación y Marketing Studio todavía no está implementado. Hay recursos que consumen créditos de Google Cloud, con alertas presupuestarias, no un límite monetario automático.

@@ -1,0 +1,282 @@
+{
+ "width": 720,
+ "height": 1280,
+ "fps": 30,
+ "durationInFrames": 711,
+ "marca": "gamestation",
+ "clips": [
+  {
+   "src": "eiliko/v2-eiliko-vamp.mp4",
+   "at": 0,
+   "duration": 45,
+   "sourceStart": 0,
+   "speed": 1.0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/p1.mp4",
+   "at": 45,
+   "duration": 21,
+   "sourceStart": 36,
+   "speed": 1.3,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/p1.mp4",
+   "at": 66,
+   "duration": 35,
+   "sourceStart": 102,
+   "speed": 1.3,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/p2.mp4",
+   "at": 101,
+   "duration": 83,
+   "sourceStart": 9,
+   "speed": 1.2,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/v2-eiliko-kimono.mp4",
+   "at": 184,
+   "duration": 150,
+   "sourceStart": 0,
+   "speed": 1.0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/v2-eiliko-santa.mp4",
+   "at": 334,
+   "duration": 40,
+   "sourceStart": 15,
+   "speed": 1.0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/v2-eiliko-osito.mp4",
+   "at": 374,
+   "duration": 40,
+   "sourceStart": 15,
+   "speed": 1.0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/v2-eiliko-vamp.mp4",
+   "at": 414,
+   "duration": 120,
+   "sourceStart": 0,
+   "speed": 1.0,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/pE.mp4",
+   "at": 534,
+   "duration": 68,
+   "sourceStart": 9,
+   "speed": 1.2,
+   "fit": "cover",
+   "volume": 0
+  },
+  {
+   "src": "eiliko/pB.mp4",
+   "at": 602,
+   "duration": 109,
+   "sourceStart": 0,
+   "speed": 1.1,
+   "fit": "cover",
+   "volume": 0
+  }
+ ],
+ "texts": [
+  {
+   "text": "Le cambié la ropa y\nle cambió la personalidad",
+   "at": 0,
+   "duration": 45,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Lo agarrás y se despierta",
+   "at": 45,
+   "duration": 56,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Reacciona al toque",
+   "at": 101,
+   "duration": 83,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Y se le cambia la ropa",
+   "at": 184,
+   "duration": 150,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Cada ropa, otra cara",
+   "at": 334,
+   "duration": 80,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Y habla según la ropa",
+   "at": 414,
+   "duration": 120,
+   "style": "tiktok",
+   "y": 0.15
+  },
+  {
+   "text": "Es mejor la luna que el sol,\nque me molesta tanto",
+   "at": 414,
+   "duration": 120,
+   "style": "tiktok",
+   "y": 0.62
+  },
+  {
+   "text": "Si se cruzan, se reconocen",
+   "at": 534,
+   "duration": 68,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Lo llevás a todos lados",
+   "at": 602,
+   "duration": 49,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "La ropa se vende aparte",
+   "at": 651,
+   "duration": 60,
+   "style": "tiktok",
+   "y": 0.2
+  },
+  {
+   "text": "Disponible en\nGameStation",
+   "at": 651,
+   "duration": 60,
+   "style": "tiktok",
+   "y": 0.545
+  }
+ ],
+ "images": [
+  {
+   "src": "gamestation/logo.png",
+   "at": 651,
+   "duration": 60,
+   "y": 0.65,
+   "width": 400
+  }
+ ],
+ "audio": [
+  {
+   "src": "eiliko/p1.mp4",
+   "at": 45,
+   "duration": 21,
+   "sourceStart": 36,
+   "speed": 1.3,
+   "volume": 0.224
+  },
+  {
+   "src": "eiliko/p1.mp4",
+   "at": 66,
+   "duration": 35,
+   "sourceStart": 102,
+   "speed": 1.3,
+   "volume": 0.224
+  },
+  {
+   "src": "eiliko/p2.mp4",
+   "at": 101,
+   "duration": 83,
+   "sourceStart": 9,
+   "speed": 1.2,
+   "volume": 0.224
+  },
+  {
+   "src": "eiliko/v2-eiliko-kimono.mp4",
+   "at": 184,
+   "duration": 150,
+   "sourceStart": 0,
+   "speed": 1.0,
+   "volume": 0.224
+  },
+  {
+   "src": "eiliko/v2-eiliko-santa.mp4",
+   "at": 334,
+   "duration": 40,
+   "sourceStart": 15,
+   "speed": 1.0,
+   "volume": 0.224
+  },
+  {
+   "src": "eiliko/v2-eiliko-osito.mp4",
+   "at": 374,
+   "duration": 40,
+   "sourceStart": 15,
+   "speed": 1.0,
+   "volume": 0.224
+  },
+  {
+   "src": "eiliko/v2-eiliko-vamp.mp4",
+   "at": 414,
+   "duration": 120,
+   "sourceStart": 0,
+   "speed": 1.0,
+   "volume": 1.0
+  },
+  {
+   "src": "eiliko/pE.mp4",
+   "at": 534,
+   "duration": 68,
+   "sourceStart": 9,
+   "speed": 1.2,
+   "volume": 0.224
+  },
+  {
+   "src": "eiliko/pB.mp4",
+   "at": 602,
+   "duration": 109,
+   "sourceStart": 0,
+   "speed": 1.1,
+   "volume": 0.224
+  },
+  {
+   "src": "musica/silly_cat.mp3",
+   "at": 0,
+   "duration": 414,
+   "sourceStart": 873,
+   "volume": 0.7
+  },
+  {
+   "src": "musica/silly_cat.mp3",
+   "at": 414,
+   "duration": 120,
+   "sourceStart": 1287,
+   "volume": 0.22
+  },
+  {
+   "src": "musica/silly_cat.mp3",
+   "at": 534,
+   "duration": 177,
+   "sourceStart": 1407,
+   "volume": 0.7
+  }
+ ]
+}

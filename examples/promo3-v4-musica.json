@@ -1,0 +1,148 @@
+{
+ "width": 720,
+ "height": 1280,
+ "fps": 30,
+ "durationInFrames": 668,
+ "marca": "baza",
+ "clips": [
+  {
+   "src": "promo/p1.mp4",
+   "at": 0,
+   "duration": 105,
+   "sourceStart": 0,
+   "volume": 0
+  },
+  {
+   "src": "promo/p2.mp4",
+   "at": 105,
+   "duration": 100,
+   "sourceStart": 48,
+   "volume": 0
+  },
+  {
+   "src": "promo/p3.mp4",
+   "at": 205,
+   "duration": 135,
+   "sourceStart": 0,
+   "volume": 0
+  },
+  {
+   "src": "promo/p4.mp4",
+   "at": 340,
+   "duration": 75,
+   "sourceStart": 20,
+   "volume": 0
+  },
+  {
+   "src": "promo/p5.mp4",
+   "at": 415,
+   "duration": 85,
+   "sourceStart": 24,
+   "volume": 0
+  },
+  {
+   "src": "promo/p6.mp4",
+   "at": 500,
+   "duration": 150,
+   "sourceStart": 0,
+   "volume": 0
+  },
+  {
+   "src": "baza/outro720.webm",
+   "at": 593,
+   "duration": 75,
+   "sourceStart": 0,
+   "speed": 1.28,
+   "volume": 0,
+   "transparent": true,
+   "fit": "contain"
+  }
+ ],
+ "audio": [
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 110,
+   "duration": 60,
+   "sourceStart": 0,
+   "volume": 0.5
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 210,
+   "duration": 60,
+   "sourceStart": 0,
+   "volume": 0.5
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 418,
+   "duration": 60,
+   "sourceStart": 0,
+   "volume": 0.5
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 560,
+   "duration": 60,
+   "sourceStart": 0,
+   "volume": 0.5
+  },
+  {
+   "src": "musica/silly_cat.mp3",
+   "at": 0,
+   "duration": 668,
+   "sourceStart": 0,
+   "volume": 0.3
+  }
+ ],
+ "texts": [
+  {
+   "style": "baza",
+   "sub": "Jarra eléctrica",
+   "text": "35% OFF",
+   "at": 110,
+   "duration": 85,
+   "y": 0.14
+  },
+  {
+   "style": "baza",
+   "sub": "Sandwichera 6 en 1",
+   "text": "50% OFF",
+   "at": 210,
+   "duration": 120,
+   "y": 0.14
+  },
+  {
+   "style": "baza",
+   "level": "secundario",
+   "text": "6 placas intercambiables",
+   "at": 345,
+   "duration": 65,
+   "y": 0.17
+  },
+  {
+   "style": "baza",
+   "sub": "Cafetera 3 en 1",
+   "text": "30% OFF",
+   "at": 418,
+   "duration": 80,
+   "y": 0.14
+  },
+  {
+   "style": "baza",
+   "level": "secundario",
+   "text": "Envío gratis",
+   "at": 500,
+   "duration": 60,
+   "y": 0.17
+  },
+  {
+   "style": "baza",
+   "sub": "y sumá un cupón",
+   "text": "Dejá tu mail",
+   "at": 560,
+   "duration": 60,
+   "y": 0.14
+  }
+ ]
+}

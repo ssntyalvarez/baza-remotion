@@ -1,0 +1,132 @@
+{
+ "width": 720,
+ "height": 1280,
+ "fps": 30,
+ "durationInFrames": 485,
+ "marca": "baza",
+ "clips": [
+  {
+   "src": "promo/p1.mp4",
+   "at": 0,
+   "duration": 41,
+   "sourceStart": 20,
+   "volume": 0
+  },
+  {
+   "src": "promo/p2.mp4",
+   "at": 41,
+   "duration": 93,
+   "sourceStart": 48,
+   "volume": 0
+  },
+  {
+   "src": "promo/p3.mp4",
+   "at": 134,
+   "duration": 38,
+   "sourceStart": 0,
+   "volume": 0
+  },
+  {
+   "src": "promo/p4.mp4",
+   "at": 172,
+   "duration": 38,
+   "sourceStart": 30,
+   "volume": 0
+  },
+  {
+   "src": "promo/p5.mp4",
+   "at": 210,
+   "duration": 70,
+   "sourceStart": 24,
+   "volume": 0
+  },
+  {
+   "src": "promo/p6.mp4",
+   "at": 280,
+   "duration": 125,
+   "sourceStart": 0,
+   "volume": 0
+  },
+  {
+   "src": "promo/p8.mp4",
+   "at": 405,
+   "duration": 80,
+   "sourceStart": 0,
+   "volume": 0
+  },
+  {
+   "src": "baza/outro720.webm",
+   "at": 410,
+   "duration": 75,
+   "sourceStart": 0,
+   "speed": 1.28,
+   "volume": 0,
+   "transparent": true,
+   "fit": "contain"
+  }
+ ],
+ "audio": [
+  {
+   "src": "promo/vo.wav",
+   "at": 0,
+   "duration": 485,
+   "sourceStart": 0,
+   "volume": 1
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 74,
+   "duration": 60,
+   "sourceStart": 0,
+   "volume": 0.35
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 176,
+   "duration": 60,
+   "sourceStart": 0,
+   "volume": 0.35
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 260,
+   "duration": 60,
+   "sourceStart": 0,
+   "volume": 0.35
+  }
+ ],
+ "texts": [
+  {
+   "style": "baza",
+   "sub": "Jarra eléctrica",
+   "text": "35% OFF",
+   "at": 74,
+   "duration": 60,
+   "y": 0.14
+  },
+  {
+   "style": "baza",
+   "sub": "Sandwichera 6 en 1",
+   "text": "50% OFF",
+   "at": 176,
+   "duration": 60,
+   "y": 0.14
+  },
+  {
+   "style": "baza",
+   "sub": "Cafetera 3 en 1",
+   "text": "30% OFF",
+   "at": 260,
+   "duration": 32,
+   "y": 0.14
+  },
+  {
+   "style": "baza",
+   "level": "secundario",
+   "text": "Envío gratis",
+   "at": 295,
+   "duration": 45,
+   "y": 0.17
+  }
+ ]
+}

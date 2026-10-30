@@ -106,7 +106,7 @@ function Edit(t) {
     {t.clips.map((c,i) => <Sequence key={i} from={c.at} durationInFrames={c.duration}>
       <OffthreadVideo src={source(c.src)} trimBefore={c.sourceStart ?? 0} playbackRate={c.speed ?? 1}
         muted={(c.volume ?? 0) === 0} volume={c.volume ?? 0} transparent={c.transparent ?? false}
-        style={{width:'100%', height:'100%', objectFit:c.fit ?? 'cover'}} />
+        style={{width:'100%', height:'100%', objectFit:c.fit ?? 'cover', ...(c.zoom ? {transform:`scale(${c.zoom})`, transformOrigin:`50% ${(c.originY ?? 0.5)*100}%`} : {})}} />
     </Sequence>)}
     {(t.audio ?? []).map((a,i) => <Sequence key={i} from={a.at} durationInFrames={a.duration} layout="none">
       <Html5Audio src={source(a.src)} trimBefore={a.sourceStart ?? 0} playbackRate={a.speed ?? 1} volume={a.volume ?? 1}/>

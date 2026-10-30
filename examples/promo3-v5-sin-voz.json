@@ -1,0 +1,125 @@
+{
+ "width": 720,
+ "height": 1280,
+ "fps": 30,
+ "durationInFrames": 468,
+ "marca": "baza",
+ "clips": [
+  {
+   "src": "promo/p1.mp4",
+   "at": 0,
+   "duration": 75,
+   "sourceStart": 0,
+   "volume": 0
+  },
+  {
+   "src": "promo/p2.mp4",
+   "at": 75,
+   "duration": 70,
+   "sourceStart": 48,
+   "volume": 0
+  },
+  {
+   "src": "promo/p3.mp4",
+   "at": 145,
+   "duration": 60,
+   "sourceStart": 0,
+   "volume": 0
+  },
+  {
+   "src": "promo/p3.mp4",
+   "at": 205,
+   "duration": 30,
+   "sourceStart": 105,
+   "volume": 0
+  },
+  {
+   "src": "promo/p4.mp4",
+   "at": 235,
+   "duration": 45,
+   "sourceStart": 25,
+   "volume": 0
+  },
+  {
+   "src": "promo/p5.mp4",
+   "at": 280,
+   "duration": 70,
+   "sourceStart": 24,
+   "volume": 0
+  },
+  {
+   "src": "promo/p6.mp4",
+   "at": 350,
+   "duration": 100,
+   "sourceStart": 15,
+   "volume": 0
+  },
+  {
+   "src": "baza/outro720.webm",
+   "at": 393,
+   "duration": 75,
+   "sourceStart": 0,
+   "speed": 1.28,
+   "volume": 0,
+   "transparent": true,
+   "fit": "contain"
+  }
+ ],
+ "audio": [
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 80,
+   "duration": 60,
+   "sourceStart": 0,
+   "volume": 0.5
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 148,
+   "duration": 60,
+   "sourceStart": 0,
+   "volume": 0.5
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 283,
+   "duration": 60,
+   "sourceStart": 0,
+   "volume": 0.5
+  }
+ ],
+ "texts": [
+  {
+   "style": "baza",
+   "sub": "Jarra eléctrica",
+   "text": "35% OFF",
+   "at": 80,
+   "duration": 60,
+   "y": 0.14
+  },
+  {
+   "style": "baza",
+   "sub": "Sandwichera 6 en 1",
+   "text": "50% OFF",
+   "at": 148,
+   "duration": 85,
+   "y": 0.14
+  },
+  {
+   "style": "baza",
+   "sub": "Cafetera 3 en 1",
+   "text": "30% OFF",
+   "at": 283,
+   "duration": 65,
+   "y": 0.14
+  },
+  {
+   "style": "baza",
+   "level": "secundario",
+   "text": "Envío gratis",
+   "at": 352,
+   "duration": 40,
+   "y": 0.17
+  }
+ ]
+}

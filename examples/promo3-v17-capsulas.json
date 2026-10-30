@@ -1,0 +1,385 @@
+{
+ "width": 720,
+ "height": 1280,
+ "fps": 30,
+ "durationInFrames": 785,
+ "marca": "baza",
+ "clips": [
+  {
+   "src": "promo/p1.mp4",
+   "at": 0,
+   "duration": 45,
+   "sourceStart": 20,
+   "volume": 0
+  },
+  {
+   "src": "promo/p2.mp4",
+   "at": 45,
+   "duration": 55,
+   "sourceStart": 48,
+   "volume": 0
+  },
+  {
+   "src": "promo/n1.mp4",
+   "at": 100,
+   "duration": 113,
+   "sourceStart": 30,
+   "volume": 0
+  },
+  {
+   "src": "promo/p4.mp4",
+   "at": 213,
+   "duration": 75,
+   "sourceStart": 0,
+   "volume": 0
+  },
+  {
+   "src": "promo/n2b.mp4",
+   "at": 288,
+   "duration": 30,
+   "sourceStart": 72,
+   "volume": 0
+  },
+  {
+   "src": "promo/p3.mp4",
+   "at": 318,
+   "duration": 93,
+   "sourceStart": 5,
+   "volume": 0
+  },
+  {
+   "src": "promo/p5.mp4",
+   "at": 411,
+   "duration": 45,
+   "sourceStart": 24,
+   "volume": 0
+  },
+  {
+   "src": "promo/n3b.mp4",
+   "at": 456,
+   "duration": 95,
+   "sourceStart": 0,
+   "volume": 0
+  },
+  {
+   "src": "promo/p5.mp4",
+   "at": 551,
+   "duration": 46,
+   "sourceStart": 69,
+   "volume": 0
+  },
+  {
+   "src": "promo/p6.mp4",
+   "at": 597,
+   "duration": 40,
+   "sourceStart": 0,
+   "volume": 0
+  },
+  {
+   "src": "promo/p8.mp4",
+   "at": 637,
+   "duration": 148,
+   "sourceStart": 0,
+   "volume": 0
+  },
+  {
+   "src": "baza/outro720.webm",
+   "at": 710,
+   "duration": 75,
+   "sourceStart": 0,
+   "speed": 1.28,
+   "volume": 0,
+   "transparent": true,
+   "fit": "contain"
+  }
+ ],
+ "audio": [
+  {
+   "src": "promo/vo3.wav",
+   "at": 0,
+   "duration": 785,
+   "volume": 1
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 100,
+   "duration": 45,
+   "volume": 0.35
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 218,
+   "duration": 45,
+   "volume": 0.35
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 415,
+   "duration": 45,
+   "volume": 0.35
+  },
+  {
+   "src": "baza/sonidos/bell1.wav",
+   "at": 675,
+   "duration": 45,
+   "volume": 0.35
+  }
+ ],
+ "texts": [
+  {
+   "style": "baza",
+   "sub": "Jarra eléctrica",
+   "text": "35% OFF",
+   "at": 100,
+   "duration": 113,
+   "y": 0.175,
+   "scale": 0.72
+  },
+  {
+   "style": "baza",
+   "sub": "Sandwichera 6 en 1",
+   "text": "50% OFF",
+   "at": 218,
+   "duration": 190,
+   "y": 0.175,
+   "scale": 0.72
+  },
+  {
+   "style": "baza",
+   "sub": "Cafetera 3 en 1",
+   "text": "30% OFF",
+   "at": 415,
+   "duration": 145,
+   "y": 0.175,
+   "scale": 0.72
+  },
+  {
+   "style": "baza",
+   "level": "secundario",
+   "text": "Envío gratis",
+   "at": 560,
+   "duration": 37,
+   "y": 0.175,
+   "scale": 0.72
+  },
+  {
+   "style": "bonus",
+   "text": "+5%",
+   "sub": "extra",
+   "at": 675,
+   "duration": 55,
+   "x": 0.76,
+   "y": 0.34
+  },
+  {
+   "style": "subtitulo",
+   "text": "Mirá lo que",
+   "at": 0,
+   "duration": 14,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "tenemos en *Baza*",
+   "at": 14,
+   "duration": 31,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "La jarra eléctrica",
+   "at": 45,
+   "duration": 23,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "hierve el agua",
+   "at": 68,
+   "duration": 23,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "para tu *mate*",
+   "at": 91,
+   "duration": 20,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "tu *té* o",
+   "at": 111,
+   "duration": 15,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "lo que quieras",
+   "at": 126,
+   "duration": 26,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "con *35%*",
+   "at": 152,
+   "duration": 35,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "de descuento",
+   "at": 187,
+   "duration": 25,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "La sandwichera",
+   "at": 212,
+   "duration": 15,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "*6 en 1*",
+   "at": 227,
+   "duration": 19,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "cambia de placas",
+   "at": 246,
+   "duration": 32,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "hacés sándwiches",
+   "at": 278,
+   "duration": 32,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "waffles, provoleta",
+   "at": 310,
+   "duration": 35,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "y hasta",
+   "at": 345,
+   "duration": 6,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "*mini donas*",
+   "at": 350,
+   "duration": 27,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "con *50%*",
+   "at": 377,
+   "duration": 35,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "La cafetera *3 en 1*",
+   "at": 412,
+   "duration": 42,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "anda con cápsulas",
+   "at": 456,
+   "duration": 19,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "*Nespresso*",
+   "at": 475,
+   "duration": 20,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "*Dolce Gusto*",
+   "at": 495,
+   "duration": 23,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "o café molido",
+   "at": 518,
+   "duration": 21,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "*30%*",
+   "at": 539,
+   "duration": 19,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "y envío gratis",
+   "at": 558,
+   "duration": 42,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "Si comprás y",
+   "at": 601,
+   "duration": 24,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "te suscribís",
+   "at": 625,
+   "duration": 13,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "en la página de *Baza*",
+   "at": 638,
+   "duration": 28,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "te dan un",
+   "at": 666,
+   "duration": 11,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "*5% más*",
+   "at": 677,
+   "duration": 32,
+   "y": 0.7
+  },
+  {
+   "style": "subtitulo",
+   "text": "de descuento",
+   "at": 709,
+   "duration": 36,
+   "y": 0.7
+  }
+ ]
+}

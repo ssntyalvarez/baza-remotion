@@ -1,3 +1,6 @@
+# 🔴 VOZ EN OFF: solo "Chica argentina 20 años" (pedido de Santy, 30/10/2026)
+ElevenLabs voice_id `cd1R1KrHpaUiVP2eCGqR`, exclusiva. Macarena 2 ya NO se usa. Ver `claude/voz-oficial.md` en el proyecto de Claude.
+
 # Editor Remotion: entrega para Claude
 
 # 🔴 GATE AVATAR: antes de generar CUALQUIER plano con una persona (pedido de Santy, 30/10/2026)

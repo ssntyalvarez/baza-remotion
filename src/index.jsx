@@ -69,14 +69,14 @@ function BazaText({x}) {
 function SubText({x}) {
   const f = useCurrentFrame(); const {fps} = useVideoConfig();
   const s = x.scale ?? 1;
-  const pop = spring({frame: f, fps, config: {damping: 16, stiffness: 220}, durationInFrames: 10});
+  const pop = spring({frame: f, fps, config: {damping: 16, stiffness: 220}, durationInFrames: 6});
   const parts = x.text.split(/(\*[^*]+\*)/).filter(Boolean);
   return <AbsoluteFill style={{alignItems:'center'}}>
     <div style={{position:'absolute', top:`${(x.y ?? 0.68) * 100}%`, transform:`translateY(-50%) scale(${0.92 + 0.08*pop})`, opacity: pop,
-      maxWidth:'86%', textAlign:'center', background:'rgba(255,255,255,.93)', color:'#1d1d1f',
-      fontFamily:'BazaTexto, Helvetica, Arial, sans-serif', fontWeight:500, fontSize:(x.size ?? 52)*s, lineHeight:1.12,
-      letterSpacing:-0.4*s, padding:`${14*s}px ${26*s}px ${16*s}px`, borderRadius:26*s,
-      boxShadow:`0 ${6*s}px ${22*s}px rgba(0,0,0,.22)`}}>
+      whiteSpace:'nowrap', textAlign:'center', background:'rgba(255,255,255,.88)', color:'#1d1d1f',
+      fontFamily:'BazaTexto, Helvetica, Arial, sans-serif', fontWeight:500, fontSize:(x.size ?? 36)*s, lineHeight:1.12,
+      letterSpacing:-0.4*s, padding:`${8*s}px ${20*s}px ${10*s}px`, borderRadius:20*s,
+      boxShadow:`0 ${3*s}px ${12*s}px rgba(0,0,0,.18)`}}>
       {parts.map((p,i) => p.startsWith('*') ? <span key={i} style={{color:'#D84515', fontWeight:700}}>{p.slice(1,-1)}</span> : <span key={i}>{p}</span>)}
     </div>
   </AbsoluteFill>;

@@ -11,7 +11,7 @@ Herramientas (detalle en `argolink-api.md`):
 - **Video:** ArgoLink Seedance 2.5 (`POST /v1/videos`). Siempre 720p, 9:16 y `generate_audio: true`.
 - **Imagen guía:** ArgoLink nano-banana-pro (`POST /v1/images/edits`, US$0,03, `resolution: "2k"`).
 - **Corrección de un clip:** ArgoLink edit (`omni_reference_task_type: "edit"`, sin `aspect_ratio`).
-- **Búsquedas:** Apify.
+- **Búsquedas:** ScrapeCreators (desde el 10/11; reemplaza a Apify; endpoints en `maquina-investigacion.md`).
 - **Montaje:** Remotion del repo `baza-remotion`.
 - **Helper:** `argo.py`, con `req`, `upload`, `submit` y `fetch`.
 - Las llaves salen de `llaves.env` (Drive) o de `argolink-key.txt`, y nunca se imprimen.
@@ -158,10 +158,10 @@ Herramientas (detalle en `argolink-api.md`):
 
 ### 3.1 Conseguir el movimiento real de la persona (ejercicio, pose de espejo)
 
-1. **Buscar un video REAL** del movimiento exacto con Apify:
-   - TikTok: `clockworks~tiktok-scraper` con `searchQueries`, por ejemplo "lat pulldown form", "seated dumbbell shoulder press", "gym mirror selfie pump".
-   - Instagram: `apify~instagram-hashtag-scraper`, reels.
-   - Bajar los candidatos (`shouldDownloadVideos` / `mediaUrls` con Bearer) y armar una hoja de miniaturas para elegir.
+1. **Buscar un video REAL** del movimiento exacto con ScrapeCreators:
+   - TikTok: `GET /v1/tiktok/search/keyword?query=`, por ejemplo "lat pulldown form", "seated dumbbell shoulder press", "gym mirror selfie pump".
+   - Instagram: `GET /v2/instagram/reels/search?query=`.
+   - Bajar los candidatos (`video_url` / `play_addr` directo de la respuesta) y armar una hoja de miniaturas para elegir.
 2. **Criterios para elegir el video:**
    - Ejercicio NORMAL, con peso creíble y forma correcta.
    - Cámara de celular fija, sin cortes, con un encuadre parecido al que queremos.
@@ -246,7 +246,7 @@ Tandas anteriores:
 
 **Procedimiento:**
 
-1. **Moldes:** buscar fotos reales de Pinterest con Apify, del tipo de foto que saca esa cámara: digicam de noche con flash, espejo, amigas, playa al atardecer, cortina roja. Elegir moldes con defectos reales. Moldes usados: p02 besito de noche, p15 espejo con remera amarilla, p05 cortina roja, p24 amigas de día con tragos, p26 atardecer en la playa.
+1. **Moldes:** buscar fotos reales de Pinterest con ScrapeCreators (`GET /v1/pinterest/search?query=`), del tipo de foto que saca esa cámara: digicam de noche con flash, espejo, amigas, playa al atardecer, cortina roja. Elegir moldes con defectos reales. Moldes usados: p02 besito de noche, p15 espejo con remera amarilla, p05 cortina roja, p24 amigas de día con tragos, p26 atardecer en la playa.
 2. **Imágenes que se pasan**, en este orden:
    1. recorte de la cara de nuestra chica (sacado de un clip aprobado, por ejemplo el cuadro de 2,1 s de la selfie de Palermo);
    2. plano medio de nuestra chica;
@@ -284,7 +284,7 @@ Tandas anteriores:
 
 ## 5. Copia de viral [comprobado]
 
-1. Buscar el viral con Apify. El criterio de elección está en la memoria del proyecto:
+1. Buscar el viral con ScrapeCreators. El criterio de elección está en la memoria del proyecto:
    - primero el mismo producto;
    - si no hay, el más parecido VISUAL y estéticamente y por público;
    - que sea reciente.

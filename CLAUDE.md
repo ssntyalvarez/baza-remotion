@@ -62,3 +62,9 @@ Una outro con transparencia se agrega al final de `clips`, encima de la imagen b
 6. Faltan la cola de producción autónoma, el coordinador de IA, revisión móvil y conexión con Marketing Studio.
 
 No exponer este renderizador como endpoint abierto: las URLs necesitan controles de acceso y restricciones de red del lado del servidor. La validación local de JSON no sustituye esa seguridad.
+
+## Transiciones disponibles (light leaks)
+
+`public/transiciones/light-leaks-alpha.webm` (con transparencia, 608x1080, 24 fps, ~26,7 s, sin audio) y `public/transiciones/light-leaks.mp4` (fondo negro; para editores con modo "pantalla/screen"). Es el pack "Light Leaks / Film Burn Overlay" de thinkmakepush, ya recortado: se quitó la intro con el logo (los primeros 3,35 s). Luces rojas que entran y salen; el tramo útil rápido para un corte está en los primeros segundos.
+
+Uso en el montaje: agregarlo al final de `clips` (queda encima) con `transparent: true`, `fit: "cover"`, `volume: 0`, `src: "transiciones/light-leaks-alpha.webm"`, `at` en el cuadro donde va la transición y `duration` corto (p. ej. 12 a 24 cuadros a 24 fps; con `sourceStart` se elige qué parte de las luces usar). Verificar el resultado antes de darlo por aprobado: no se ha renderizado todavía dentro del motor.
